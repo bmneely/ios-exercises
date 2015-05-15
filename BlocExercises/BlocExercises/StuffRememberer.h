@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface StuffRememberer : NSObject
+@property (assign) CGFloat floatToRemember;
+@property (nonatomic, strong) NSMutableArray *arrayToRemember;
+@property (nonatomic, copy) NSMutableArray *arrayToCopy;
 
 /*
  
@@ -25,6 +28,7 @@
   3. In `floatYouShouldRemember`, return the float value provided in `rememberThisFloatForLater:`.
  
  */
+
 
 /**
  Indicates a mutable array to remember for later.
